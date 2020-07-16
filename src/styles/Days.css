@@ -1,0 +1,14 @@
+.main-days {
+    height: 85vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+    .main-days {
+        height:100%;
+    }
+}

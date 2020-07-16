@@ -1,0 +1,48 @@
+.days {
+    background-color:white;
+    margin: 10px 15px 10px 15px;
+    width:20%;
+    height:fit-content;
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    border:1px solid #efefef;
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15),
+        0 10px  0 -5px #eee,
+        0 10px 1px -4px rgba(0,0,0,0.15),
+        0 20px 0 -10px #eee,
+        0 20px 1px -9px rgba(0,0,0,0.15);
+    padding:30px;
+    min-height:40%;
+}
+
+.day-name{
+    font-size: 1.5em;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.text-area {
+    width:80%;
+    padding:5px;
+    margin:auto;
+    margin-top:25px;
+    text-align:center;
+    border:none;
+    border-bottom: solid 0.5px #cecece;
+    border-right: solid 0.3px #cecece;
+}
+.text-area::placeholder {
+    font-size:0.8em;
+}
+.text-area:focus {
+    outline:none;
+}
+
+@media (max-width: 800px) {
+    .days {
+        width:50%;
+    }
+}

@@ -1,0 +1,39 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.day-content {
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:10px 20px 0;
+    border-bottom:1px solid #cecece;
+    font-weight:100;
+    font-size:1.1em;
+    color:#333333;
+    letter-spacing:0.3px;
+}
+.day-content p {
+    white-space:normal;
+    max-width:90%;
+    line-height:1.1;
+    word-wrap:break-word;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
+.trash-icon {
+    font-size: 0.8em;
+}
+
+.trash-icon:hover,
+.trash-icon:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  animation:spin 1.5s linear alternate;
+}
+
+@keyframes spin {
+    100% {
+        transform:rotate(360deg);
+    }
+}
