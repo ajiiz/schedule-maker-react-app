@@ -14,9 +14,6 @@ class Day extends Component {
         this.handleChangeNewTask = this.handleChangeNewTask.bind(this)
         this.handleDeleteTask = this.handleDeleteTask.bind(this)
     }
-    componentDidUpdate(){
-        this.props.saveAll()
-    }
     handleChange(id){
         this.setState(prevState => {
             const updatedTasks = prevState.task.map(task => {
@@ -27,6 +24,7 @@ class Day extends Component {
                 task : updatedTasks
             }
         })
+        this.props.updateTasks(this.state.task, this.props.data.id)
     }
     handleSubmit(e){
         if(e.key === "Enter") {
@@ -42,13 +40,13 @@ class Day extends Component {
                         newTask : ""
                     }
                 })
+                this.props.updateTasks(this.state.task, this.props.data.id)
             }
     }
     handleChangeNewTask({ target }){
         this.setState({
             [target.name] : target.value
         })
-        console.log(this.state.newTask)
     }
     handleDeleteTask(id) {
         console.log(id)
@@ -62,6 +60,7 @@ class Day extends Component {
                 task : updatedTasks
             }
         })
+        this.props.updateTasks(this.state.task, this.props.data.id)
     }
     render(){
         const tasks = this.state.task.map(task => <DaysTasks
