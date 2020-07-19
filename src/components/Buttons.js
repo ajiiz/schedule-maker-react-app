@@ -1,17 +1,17 @@
 import React from 'react'
 import '../styles/Buttons.css'
 
-function Buttons() {
+function Buttons(props) {
     return (
         <div className = "buttons">
-            <div class="btn">
-                <div class="eff"></div>
+            <button className = "btn" onClick = {props.saveStorage}>
+                <div className = "eff"></div>
             <span>save</span>
-            </div>
-            <div class="btn">
-                <div class="eff"></div>
+            </button>
+            <button className = "btn" onClick = {props.clearStorage}>
+                <div className = "eff"></div>
             <span>clear</span>
-            </div>
+            </button>
         </div>
     )
 }

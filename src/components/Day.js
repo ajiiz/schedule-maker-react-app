@@ -23,12 +23,11 @@ class Day extends Component {
             return {
                 task : updatedTasks
             }
-        })
-        this.props.updateTasks(this.state.task, this.props.data.id)
+        },() => this.props.updateTasks(this.state.task, this.props.data.id))
     }
     handleSubmit(e){
         if(e.key === "Enter") {
-            if(this.state.newTask !== "")
+            if(this.state.newTask !== "") {
                 this.setState(prevState => {
                     const updatedTasks = prevState.task.map(task => {
                         return task
@@ -39,9 +38,9 @@ class Day extends Component {
                         task : updatedTasks,
                         newTask : ""
                     }
-                })
-                this.props.updateTasks(this.state.task, this.props.data.id)
+                },() => {this.props.updateTasks(this.state.task, this.props.data.id)}) //callback function
             }
+        }
     }
     handleChangeNewTask({ target }){
         this.setState({
@@ -49,7 +48,6 @@ class Day extends Component {
         })
     }
     handleDeleteTask(id) {
-        console.log(id)
         this.setState(prevState => {
             const updatedTasks = prevState.task.map(task => {
                 if(task.id >= id) task.id-=1
@@ -59,14 +57,16 @@ class Day extends Component {
             return {
                 task : updatedTasks
             }
-        })
-        this.props.updateTasks(this.state.task, this.props.data.id)
+        },() => {this.props.updateTasks(this.state.task, this.props.data.id)})
     }
     render(){
-        const tasks = this.state.task.map(task => <DaysTasks
-            task={task} key={task.id}
-            handleChange={this.handleChange}
-            handleDeleteTask={this.handleDeleteTask}/>)
+        const tasks = this.state.task.map(task =>
+            <DaysTasks
+            task = {task}
+            key = {task.id}
+            handleChange = {this.handleChange}
+            handleDeleteTask = {this.handleDeleteTask}
+            />)
         return(
                 <div className = "days">
                     <div className = "day-name">

@@ -4,14 +4,9 @@ const Data = [
         dayName : "Monday",
         tasks : [
             {
-                text : "Make Coffe",
+                text : "Start making plans!",
                 completed : true,
                 id : 1,
-            },
-            {
-                text : "Swimming",
-                completed : false,
-                id : 2
             }
         ]
     },
@@ -20,14 +15,9 @@ const Data = [
         dayName : "Tuesday",
         tasks : [
             {
-                text : "Book",
+                text : "Be yourself!",
                 completed : false,
                 id : 1
-            },
-            {
-                text : "Gym",
-                completed : false,
-                id : 2
             }
         ]
     },
@@ -36,8 +26,8 @@ const Data = [
         dayName : "Wednesday",
         tasks : [
             {
-                text : "Make Coffe",
-                completed : false,
+                text : "Coffe is love",
+                completed : true,
                 id : 1
             }
         ]
@@ -47,14 +37,9 @@ const Data = [
         dayName : "Thursday",
         tasks : [
             {
-                text : "Make Coffe",
+                text : "Enjoy the day",
                 completed : false,
                 id : 1
-            },
-            {
-                text : "Swimming",
-                completed : false,
-                id : 2
             }
         ]
     },
@@ -63,14 +48,9 @@ const Data = [
         dayName : "Friday",
         tasks : [
             {
-                text : "Make Coffe",
+                text : "Programming time",
                 completed : false,
                 id : 1
-            },
-            {
-                text : "Swimming",
-                completed : false,
-                id : 2
             }
         ]
     },
@@ -79,14 +59,9 @@ const Data = [
         dayName : "Saturday",
         tasks : [
             {
-                text : "Make Coffe",
+                text : "Listen to music",
                 completed : false,
                 id : 1
-            },
-            {
-                text : "Swimming",
-                completed : false,
-                id : 2
             }
         ]
     },
@@ -95,13 +70,13 @@ const Data = [
         dayName : "Sunday",
         tasks : [
             {
-                text : "Make Coffe",
-                completed : false,
+                text : "The end",
+                completed : true,
                 id : 1
             },
             {
-                text : "Swimming",
-                completed : false,
+                text: "is a new beginning",
+                completed: false,
                 id : 2
             }
         ]
