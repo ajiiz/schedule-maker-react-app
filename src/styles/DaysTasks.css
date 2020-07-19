@@ -37,3 +37,9 @@ input[type=checkbox] {
         transform:rotate(360deg);
     }
 }
+
+@media (max-width: 600px) {
+    .day-content {
+        font-size: 1em;
+    }
+}

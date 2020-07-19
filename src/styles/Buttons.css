@@ -1,4 +1,60 @@
 .buttons {
     width:100%;
-    height:5%;
+    height:10%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.btn{
+    width:10%;
+    height:60%;
+    border:1px solid #efefef;
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    margin-bottom: 15px;
+  }
+  .btn span{
+    font-size:1.1em;
+    text-decoration:none;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff{
+    width:100%;
+    height:100%;
+    bottom:-50px;
+    background:#000000;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .btn:hover .eff{
+    bottom:0;
+  }
+  .btn:hover span{
+    color:#fff;
+  }
+
+  @media (max-width: 800px) {
+    .btn {
+        padding:10px;
+    }
+}
+@media (max-width: 600px) {
+    .buttons {
+        flex-direction: column;
+    }
+    .btn {
+        width:35%;
+    }
 }
