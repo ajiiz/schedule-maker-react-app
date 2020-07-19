@@ -1,3 +1,12 @@
+##Schedule Maker App
+
+Simple app for managing your week schedule.
+You can save your plans in local storage by clicking "save" button.
+You can clear storage by clicking "clear" button.
+Add new task by clicking on text-box(enter new task) then insert text and submit by pressing enter.
+Should be also working on mobile since I made it responsive.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
