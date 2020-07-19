@@ -1,4 +1,4 @@
-##Schedule Maker App
+## Schedule Maker App
 
 Simple app for managing your week schedule.
 You can save your plans in local storage by clicking "save" button.
