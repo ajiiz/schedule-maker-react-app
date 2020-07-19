@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ajiiz/schedule-maker-react-app/static/css/main.8be2dc25.chunk.css",
-    "main.js": "/ajiiz/schedule-maker-react-app/static/js/main.26096738.chunk.js",
-    "main.js.map": "/ajiiz/schedule-maker-react-app/static/js/main.26096738.chunk.js.map",
-    "runtime-main.js": "/ajiiz/schedule-maker-react-app/static/js/runtime-main.a9ddb696.js",
-    "runtime-main.js.map": "/ajiiz/schedule-maker-react-app/static/js/runtime-main.a9ddb696.js.map",
-    "static/js/2.9283a2e2.chunk.js": "/ajiiz/schedule-maker-react-app/static/js/2.9283a2e2.chunk.js",
-    "static/js/2.9283a2e2.chunk.js.map": "/ajiiz/schedule-maker-react-app/static/js/2.9283a2e2.chunk.js.map",
-    "index.html": "/ajiiz/schedule-maker-react-app/index.html",
-    "precache-manifest.5eed6731c5b335b37c2ca02f1c4cda33.js": "/ajiiz/schedule-maker-react-app/precache-manifest.5eed6731c5b335b37c2ca02f1c4cda33.js",
-    "service-worker.js": "/ajiiz/schedule-maker-react-app/service-worker.js",
-    "static/css/main.8be2dc25.chunk.css.map": "/ajiiz/schedule-maker-react-app/static/css/main.8be2dc25.chunk.css.map",
-    "static/js/2.9283a2e2.chunk.js.LICENSE.txt": "/ajiiz/schedule-maker-react-app/static/js/2.9283a2e2.chunk.js.LICENSE.txt"
+    "main.css": "/schedule-maker-react-app/static/css/main.8be2dc25.chunk.css",
+    "main.js": "/schedule-maker-react-app/static/js/main.26096738.chunk.js",
+    "main.js.map": "/schedule-maker-react-app/static/js/main.26096738.chunk.js.map",
+    "runtime-main.js": "/schedule-maker-react-app/static/js/runtime-main.68303654.js",
+    "runtime-main.js.map": "/schedule-maker-react-app/static/js/runtime-main.68303654.js.map",
+    "static/js/2.9283a2e2.chunk.js": "/schedule-maker-react-app/static/js/2.9283a2e2.chunk.js",
+    "static/js/2.9283a2e2.chunk.js.map": "/schedule-maker-react-app/static/js/2.9283a2e2.chunk.js.map",
+    "index.html": "/schedule-maker-react-app/index.html",
+    "precache-manifest.b6f81d5ac84a5dba1dcabee0d2bb7eef.js": "/schedule-maker-react-app/precache-manifest.b6f81d5ac84a5dba1dcabee0d2bb7eef.js",
+    "service-worker.js": "/schedule-maker-react-app/service-worker.js",
+    "static/css/main.8be2dc25.chunk.css.map": "/schedule-maker-react-app/static/css/main.8be2dc25.chunk.css.map",
+    "static/js/2.9283a2e2.chunk.js.LICENSE.txt": "/schedule-maker-react-app/static/js/2.9283a2e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9ddb696.js",
+    "static/js/runtime-main.68303654.js",
     "static/js/2.9283a2e2.chunk.js",
     "static/css/main.8be2dc25.chunk.css",
     "static/js/main.26096738.chunk.js"
