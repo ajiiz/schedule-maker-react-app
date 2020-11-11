@@ -10,7 +10,7 @@ You can save and clear your list using buttons. List is saved in local storage.
 * [Contact](#contact)
 
 ## Status
-#### Ended
+#### Published live version at: [schedule maker](https://ajiiz.github.io/schedule-maker-react-app/)
 
 ## Technologies
 #### Project is created with:
